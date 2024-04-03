@@ -1,5 +1,6 @@
-My first example of a basic linear regression for Android with tflite
-the app has simply an edit text where I insert an integer, a button to be pressed to start tflite inference, a text view to display the result.
+My first example of a basic linear regression for Android with tflite.
+
+The app has simply an edit text where I insert an integer, a button to be pressed to start tflite inference, a text view to display the result.
 
 ![immagine](https://github.com/gianpaolof/basic_lin_reg_tf_lite/assets/6586650/2f86da96-c828-4347-b9c4-974c3bcb3dcf)
 
