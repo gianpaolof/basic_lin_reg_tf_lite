@@ -4,6 +4,8 @@ the app has simply an edit text where I insert an integer, a button to be presse
 ![immagine](https://github.com/gianpaolof/basic_lin_reg_tf_lite/assets/6586650/2f86da96-c828-4347-b9c4-974c3bcb3dcf)
 
 The model:
+
+```python
 import numpy as np
 import tensorflow as tf
 from tensorflow import keras
@@ -35,7 +37,6 @@ tflite_model = converter.convert()
 
 with open('model.tflite', 'wb') as f:
     f.write(tflite_model)
-
-
+```
 
 
